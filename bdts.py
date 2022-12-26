@@ -52,4 +52,4 @@ class Conexion:
         cursor.execute("SELECT isbn, autor, editorial, titulo, categoria FROM busca WHERE titulo LIKE '%"+isbn+"%';" )
         resultado = cursor.fetchall()
         self.desconectar()
-        return resultado
+        return resultado  
