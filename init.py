@@ -30,9 +30,9 @@ class Interfaz():
         Label(self.ventana, bg="#2E276C" ).place(x=0, y=0, width=750, height=700)
         
         Label(self.ventana,text="Bienvenidx", bg="white", font=('Nunito', 40, "normal") ).place(x=880, y=30)
-        Button(self.ventana,text="Solicitar Libro",bg="white",  border=0,font=('Nunito', 40, "normal"), command=self.soli).place(x=850,y=130)
-        Button(self.ventana,text="Buscar Libro",bg="white", border=0, font=('Nunito', 40, "normal"), command=self.bus).place(x=850,y=300)
-        Button(self.ventana,text="Información",bg="white",  border=0, font=('Nunito', 40, "normal"), command=self.btnenv ).place(x=850,y=480)
+        Button(self.ventana,text="Solicitar Libro",bg="white",  border=0,font=('Nunito', 40, "normal") ).place(x=850,y=130)
+        Button(self.ventana,text="Buscar Libro",bg="white", border=0, font=('Nunito', 40, "normal") ).place(x=850,y=300)
+        Button(self.ventana,text="Información",bg="white",  border=0, font=('Nunito', 40, "normal") ).place(x=850,y=480)
         #Text(self.ventana,text="Información",bg="white",  border=0, font=('Nunito', 40, "normal")).place(x=100,y=480)
       
         #img = PhotoImage(file="log.png")
